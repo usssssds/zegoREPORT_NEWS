@@ -1,0 +1,277 @@
+<!DOCTYPE>
+<html>
+<head>
+<title>即构资讯——企业动态</title>
+<link rel="icon" type="image/x-icon"  href="C:/Users/zego/Desktop/zego.ico">
+</head>
+
+<mera charset="UTF-8">
+
+<style>
+.artilce-container {
+  display: flex;
+  align-items: flex-start; /* 使图片和内容顶部对齐 */
+}
+
+.article-box {
+display: flex;
+border: 2px solid #ccc;
+padding: 15px;
+margin-bottom: 15px;
+border-radius: 30px;
+background-color: #96D4D4;
+transition: background-color 2s ease;
+position: relative; /* 为子元素定位提供基准 */
+}
+
+.article-box:hover{
+background-color:pink;
+}
+
+
+.article-time {
+position: absolute;
+right: -7;
+bottom: -10;
+font-size: 10px;
+color: #555;
+padding: 4px 8px;
+border-radius: 30px;
+box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+
+.article-image {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  margin-right: 15px;
+  border-radius: 10px;
+  align-self: flex-start; /* 顶部对齐 */
+}
+
+.article-content-wrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-height: 120px; /* 与图片同高 */
+  position: relative; /* 时间定位基准 */
+}
+
+.article-content {
+  flex: 1;
+}
+
+
+.article-title {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 6px;
+  color: #333;
+  text-decoration: none;
+  display: block;
+  transition: color 1s ease;
+}
+
+.article-title:hover{
+color:orange;
+}
+
+.article-summary {
+  font-size: 12px;
+  color: black;
+  line-height: 1.6;
+}
+
+
+.article-box img {
+width: 170px;
+object-fit: cover;
+margin-right: 15px;
+border-radius: 20px;
+}
+
+.article-box a {
+text-decoration: none;
+color: #333;
+font-size: 16px;
+line-height: 1.5;
+flex: 1;
+}
+
+.article-box a:hover {
+color: red;
+text-decoration: none;
+}
+
+h1{
+font-size:xx-small;
+font-family:Roboto;
+border:3px solid powderblue;
+border-radius:20px;
+display:inline-block;
+padding:10px;
+margin:5px
+}
+
+p{
+font_family:Noto Serif SC;
+text-align:jutify;
+font-size:large;
+}
+
+a:visited {
+color: purple ;
+background-color:transparent;
+text-decoration:none;
+}
+
+a:link {
+color: blue;
+background-color:transparent;
+text-decoration: none;
+}
+   
+a:hover {
+color: red;
+background-color:transparent;
+text-decoration: underline;
+}
+    
+a:active {
+color: orange;
+text-decoration: underline;
+background-color:transparent
+}
+
+.btn-link:link,.btn-link:visited{
+background-color: DarkSlateBlue;
+color: white;
+padding: 15px 0;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+border-radius: 7px;
+border: 3px solid white;   flex: 1;
+min-width: 50px;
+box-sizing: border-box;
+}
+
+
+
+.btn-link:hover,.btn-link:active{
+background-color:pink;
+}
+
+.button-row{
+display:flex;
+flex-wrap:wrap;
+justify-content:space-between;
+gap:10px
+max-width:100%
+margin-top:20px;
+flex-wrap:wrap;
+}
+</style>
+
+
+<h1>企业动态</h1>
+<br>
+
+<div class="article-box">
+  <img class="article-image" src="https://market-blogs.zego.im/wp-content/uploads/2025/04/super-app.webp">
+  <div class="article-content-wrapper">
+    <div class="article-content">
+      <a class="article-title" href="https://www.zego.im/blog/2315.html" target="_blank">
+即构实时互动 AI Agent 获评 2025 AI Partner 创新大奖      </a>
+      <div class="article-summary">
+        随着人工智能技术的不断成熟，AI应用正逐步深入千行百业，成为推动各行业数字化、智能化转型的重要力量。4月18日，36氪2025年AI Partner大会在上海举办。为了让AI原生应…
+      </div>
+    </div>
+    <div class="article-time">2025-04-21</div>
+  </div>
+</div>
+
+
+<div class="article-box">
+  <img class="article-image" src="https://market-blogs.zego.im/wp-content/uploads/2025/03/2025030310450763.jpg">
+  <div class="article-content-wrapper">
+    <div class="article-content">
+      <a class="article-title" href="https://www.zego.im/blog/2132.html" target="_blank">
+即构科技X美术宝：打造让更多家庭信赖的在线美育</a>
+      <div class="article-summary">
+        随着信息技术和AI的发展，在线教育成为一种重要的学习方式。在实时音视频技术的支持下，在线教育让知识和技能跨越时间和空间的界限，从而推动教育普惠更多群体。 在线美育...
+      </div>
+    </div>
+    <div class="article-time">2025-03-03</div>
+  </div>
+</div>
+
+
+
+<div class="article-box">
+  <img class="article-image" src="https://market-blogs.zego.im/wp-content/uploads/2025/02/2025022102155966.jpg">
+  <div class="article-content-wrapper">
+    <div class="article-content">
+      <a class="article-title" href="https://www.zego.im/blog/2132.html" target="_blank">
+即构科技携手ROIBest 助力泛娱乐出海“乘风破浪”</a>
+      <div class="article-summary">
+       2025年，出海仍是不少应用开发者的重要战略之一。然而，开发投入大、周期长，上架难、推广困难是泛娱乐出海应用长期以来的行业痛点。为了帮助客户更丝滑顺畅地开展出海业...
+      </div>
+    </div>
+    <div class="article-time">2025-02-21</div>
+  </div>
+</div>
+
+
+<div class="article-box">
+  <img class="article-image" src="https://market-blogs.zego.im/wp-content/uploads/2025/02/deepseekzego.jpg">
+  <div class="article-content-wrapper">
+    <div class="article-content">
+      <a class="article-title" href="https://www.zego.im/blog/2077.html" target="_blank">
+即构科技接入DeepSeek，RTC+AI带来实时互动新体验</a>
+      <div class="article-summary">
+      凭借开源和超低训练成本，DeepSeek在春节期间“破圈”，成为全民关注的焦点。 近日，即构科技成功接入DeepSeek，把DeepSeek的大模型能力融入自身实时互动解决方案，共…
+      </div>
+    </div>
+    <div class="article-time">2025-02-13</div>
+  </div>
+</div>
+
+
+
+<div class="article-box">
+  <img class="article-image" src="https://market-blogs.zego.im/wp-content/uploads/2024/12/2024121908144566.webp">
+  <div class="article-content-wrapper">
+    <div class="article-content">
+      <a class="article-title" href="https://www.zego.im/blog/2022.html" target="_blank">
+即构发布「AI+实时音视频信创方案」 助力金融、政企行业国产化升级</a>
+      <div class="article-summary">
+      将实时音视频技术运用到金融、政企行业，已经成为金融、政企单位数字化转型过程中的重要环节，但实时音视频全面适配信创复杂度高、企业投入成本较大，这让众多企业难以完…
+      </div>
+    </div>
+    <div class="article-time">2024-12-19</div>
+  </div>
+</div>
+
+
+<div class="article-box">
+  <img class="article-image" src="https://market-blogs.zego.im/wp-content/uploads/2024/12/aihudong.jpg">
+  <div class="article-content-wrapper">
+    <div class="article-content">
+      <a class="article-title" href="https://www.zego.im/blog/1959.html" target="_blank">
+即构科技荣获“2024年度领航之星”，AI+实时互动共探泛娱乐出海新思路</a>
+      <div class="article-summary">
+      12月5日，在霞光社WAVE2024全球领航者大会上，凭借实时音视频和人工智能应用技术优势和优质服务生态，即构科技荣获“全球领航者·2024年度领航之星优质服务商”。 在AI等新…
+      </div>
+    </div>
+    <div class="article-time">2024-12-05</div>
+  </div>
+</div>
+
+
+
+
+
+
+
